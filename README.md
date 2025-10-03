@@ -22,26 +22,21 @@ El objetivo es implementar un sistema **CRUD (Crear, Leer, Actualizar, Eliminar)
 El proyecto sigue una estructura modular clara, inspirada en MVC:
 
 crud_usuarios/
-│
-├── assets/ # Recursos (imágenes, CSS, etc.)
-│ └── img/ # Imagen de fondo y estilos visuales
-│
-├── config/
-│ └── db.php # Conexión a la base de datos
-│
-├── controllers/
-│ └── UserController.php # Lógica principal de control
-│
-├── models/
-│ └── User.php # Modelo de usuario (consultas a BD)
-│
-├── views/ # Vistas (formularios y listados)
-│ ├── create.php
-│ ├── edit.php
-│ └── delete.php
-│
-└── index.php # Vista principal (listado de usuarios)
+-assets
+    -img #carpeta con la imagen usada en el fondo de la web
+-confg
+    -db.php #Conexión a la base de datos
+-controllers
+    -UserController.php # Lógica principal de control
+-models
+    - User.php # Modelo de usuario (consultas a BD)
 
+-views #vistas, formularios y listados.
+    -create.php
+    -edit.php
+    -delete.php
+-index.php  # Vista principal (listado de usuarios)
+    
 ---
 
 ## 📋 Funcionalidades implementadas
