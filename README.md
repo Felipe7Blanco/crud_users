@@ -48,6 +48,38 @@ El proyecto sigue una estructura modular clara, inspirada en MVC:
 5. Preparado para extenderse como API REST + frontend en React.  
 
 ---
+---
+
+## ⚠️ Importante
+
+Si desea probar la aplicación de forma **local**:
+
+1. Clone este repositorio en su dispositivo:  
+   ```bash
+   git clone https://github.com/TU-USUARIO/TU-REPO.git
+2. Cree una base de datos en MySQL (ejemplo: crud_usuarios).
+
+3. Ejecute el script SQL incluido en este proyecto para crear la tabla usuarios.
+
+4. Configure la conexión en el archivo: ./config/db.php
+   
+5. Inicie su servidor local (Apache + MySQL en XAMPP).
+
+6. Acceda en el navegador a:
+
+http://localhost/crud_usuarios
+---
+
+##Ejemplo de configuración para entorno local con XAMPP:
+
+private $host = "localhost";
+private $user = "root";
+private $pass = "";
+private $db   = "crud_usuarios";
+---
+
+
+
 
 ## 🗄️ Estructura de la Base de Datos
 
