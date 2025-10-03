@@ -18,6 +18,7 @@ El objetivo es implementar un sistema **CRUD (Crear, Leer, Actualizar, Eliminar)
 ---
 
 ## 🏗️ Arquitectura del Proyecto
+El proyecto sigue una estructura modular clara, inspirada en MVC:
 
 ![Arquitectura MVC](assets/img/arquitecturaMVC.png)
 
