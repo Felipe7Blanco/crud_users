@@ -19,7 +19,7 @@ El objetivo es implementar un sistema **CRUD (Crear, Leer, Actualizar, Eliminar)
 
 ## 🏗️ Arquitectura del Proyecto
 
-![Arquitectura MVC](assets/img/logo.png)
+![Arquitectura MVC](assets/img/arquitecturaMVC.png)
 
 ---
 
