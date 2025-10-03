@@ -3,7 +3,7 @@
 Este proyecto es una prueba técnica desarrollada como parte de un proceso de selección para **Programador de Software**.  
 El objetivo es implementar un sistema **CRUD (Crear, Leer, Actualizar, Eliminar)** de usuarios, utilizando **PHP nativo** y **MySQL**, siguiendo una arquitectura organizada tipo **MVC simplificado**.
 
-🌐 **Demo en producción:** https://webcruduser.infinityfreeapp.com/index.php  
+🌐 **CRUD en producción:** https://webcruduser.infinityfreeapp.com/index.php  
 
 ---
 
