@@ -19,24 +19,8 @@ El objetivo es implementar un sistema **CRUD (Crear, Leer, Actualizar, Eliminar)
 
 ## 🏗️ Arquitectura del Proyecto
 
-El proyecto sigue una estructura modular clara, inspirada en MVC:
+![Arquitectura MVC](assets/img/logo.png)
 
-crud_usuarios/
--assets
-    -img #carpeta con la imagen usada en el fondo de la web
--confg
-    -db.php #Conexión a la base de datos
--controllers
-    -UserController.php # Lógica principal de control
--models
-    - User.php # Modelo de usuario (consultas a BD)
-
--views #vistas, formularios y listados.
-    -create.php
-    -edit.php
-    -delete.php
--index.php  # Vista principal (listado de usuarios)
-    
 ---
 
 ## 📋 Funcionalidades implementadas
@@ -54,6 +38,16 @@ crud_usuarios/
 
 ---
 
+## ✨ Mejoras adicionales (Extras)
+
+1. Uso de Soft Delete en lugar de eliminación definitiva.  
+2. Validaciones con expresiones regulares en nombres, apellidos y teléfonos.  
+3. Mensajes de retroalimentación visual con Bootstrap (success, info, danger).  
+4. Diseño moderno y responsivo con imagen de fondo y panel transparente.  
+5. Preparado para extenderse como API REST + frontend en React.  
+
+---
+
 ## 🗄️ Estructura de la Base de Datos
 
 ```sql
@@ -68,29 +62,3 @@ CREATE TABLE usuarios (
         ON UPDATE CURRENT_TIMESTAMP,
     estado TINYINT(1) NOT NULL DEFAULT 1
 );
-
----
-
-##✨ Mejoras adicionales (Extras)
-
-1. Uso de Soft Delete en lugar de eliminación definitiva.
-
-2. Validaciones con expresiones regulares en nombres, apellidos y teléfonos.
-
-3. Mensajes de retroalimentación visual con Bootstrap (success, info, danger).
-
-4. Diseño moderno y responsivo con imagen de fondo y panel transparente.
-
-5. Preparado para extenderse como API REST + frontend en React.
-
----
-
-##👨‍💻 Autor
-
-Nombre: Andrés Blanco
-
-Rol: Programador de Software (Fullstack Jr)
-
-📧 Contacto: andres0blanco@gmail.com
-☎︎ Número de telefono y WhatsApp: 3228373827
-
