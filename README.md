@@ -9,11 +9,11 @@ El objetivo es implementar un sistema **CRUD (Crear, Leer, Actualizar, Eliminar)
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Backend:** PHP 8 (programación estructurada, conexión MySQLi)  
-- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5  
-- **Base de Datos:** MySQL (local con XAMPP y remota en InfinityFree)  
-- **Entorno local:** XAMPP (Apache + MySQL)  
-- **Hosting gratuito:** InfinityFree  
+- ⚙️**Backend:** PHP 8 (programación estructurada, conexión MySQLi)  
+- 🎨**Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5  
+- 🗄️**Base de Datos:** MySQL (local con XAMPP y remota en InfinityFree)  
+- 💻**Entorno local:** XAMPP (Apache + MySQL)  
+- 🌐**Hosting gratuito:** InfinityFree  
 
 ---
 
