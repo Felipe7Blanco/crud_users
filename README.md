@@ -45,9 +45,8 @@ El proyecto sigue una estructura modular clara, inspirada en MVC:
 2. Validaciones con expresiones regulares en nombres, apellidos y teléfonos.  
 3. Mensajes de retroalimentación visual con Bootstrap (success, info, danger).  
 4. Diseño moderno y responsivo con imagen de fondo y panel transparente.  
-5. Preparado para extenderse como API REST + frontend en React.  
-
----
+5. Preparado para extenderse como API REST + frontend en React.
+   
 ---
 
 ## ⚠️ Importante
