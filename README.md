@@ -69,16 +69,13 @@ Si desea probar la aplicación de forma **local**:
 http://localhost/crud_usuarios
 ---
 
-##Ejemplo de configuración para entorno local con XAMPP:
+Ejemplo de configuración para entorno local con XAMPP:
 
 private $host = "localhost";
 private $user = "root";
 private $pass = "";
 private $db   = "crud_usuarios";
 ---
-
-
-
 
 ## 🗄️ Estructura de la Base de Datos
 
