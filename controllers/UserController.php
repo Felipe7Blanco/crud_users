@@ -12,9 +12,27 @@ class UserController
 
     public function index()
     {
-        $usuarios = $this->model->getAll();
-        include __DIR__ . "/../views/list.php";
+        $db = new Database();
+        $conn = $db->getConnection();
+
+        // Capturar búsqueda si existe
+        $busqueda = isset($_GET['buscar']) ? trim($_GET['buscar']) : '';
+
+        if ($busqueda != '') {
+            $stmt = $conn->prepare("SELECT * FROM usuarios WHERE nombres LIKE ? AND estado = 1 ORDER BY nombres ASC");
+            $like = "%$busqueda%";
+            $stmt->bind_param("s", $like);
+            $stmt->execute();
+            $result = $stmt->get_result();
+        } else {
+            $sql = "SELECT * FROM usuarios WHERE estado = 1 ORDER BY nombres ASC";
+            $result = $conn->query($sql);
+        }
+        $usuarios = $result;
+
+        include "views/list.php"; //vista principal
     }
+
 
     public function create($nombres, $apellidos, $telefono, $email)
     {
